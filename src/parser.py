@@ -1,12 +1,10 @@
 
-WHITESPACE = " \n\t"
-to_the_power = False
-to_the_power_count = 0
-
-
 
 def is_equation(equ):
 	raise NotImplementedError()
+
+	for current_char in equ:
+		pass
 
 
 def parser(equ):
